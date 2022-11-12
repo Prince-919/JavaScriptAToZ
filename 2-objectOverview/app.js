@@ -20,10 +20,9 @@ const student = {
 
 // Data seen on console
 
-console.log("All Data..");
+ 
 console.log(student);   
 
-console.log("One object data access");
 console.log(student.id);
 console.log(student.name);
 console.log(student.age);
