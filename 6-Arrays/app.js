@@ -190,7 +190,10 @@ const user = {
     id : 6,
 };
 
-const isAdmin = admins.indexOf(user.id) > -1;
+// const isAdmin = admins.indexOf(user.id) > -1;
+// console.log(isAdmin);
 
-console.log(isAdmin);
+// Include Method 
+
+// console.log(admins.includes(user.id));
 
