@@ -148,29 +148,29 @@
 
 // Reduce 
 
-const movies = [
-    {
-        name : "Interstellar",
-        budget : 100,
-    },
-    {
-        name : "Social",
-        budget : 150,
-    },
-    {
-        name : "Matrix",
-        budget : 200,
-    },
-];
+// const movies = [
+//     {
+//         name : "Interstellar",
+//         budget : 100,
+//     },
+//     {
+//         name : "Social",
+//         budget : 150,
+//     },
+//     {
+//         name : "Matrix",
+//         budget : 200,
+//     },
+// ];
 
 
 // using reduce 
- const total = movies.reduce((acc, movie) =>{
-    acc += movie.budget;
-    return acc;
-},0);
+//  const total = movies.reduce((acc, movie) =>{
+//     acc += movie.budget;
+//     return acc;
+// },0);
 // console.log(acc); //ReferenceError: total is not defined
-console.log("Total Budget : ", total);
+// console.log("Total Budget : ", total);
 
 
 // Without reduce 
@@ -179,3 +179,18 @@ console.log("Total Budget : ", total);
 //     total += movie.budget;
 // });
 // console.log("Total Budget : ", total);
+
+
+// IndexOf
+
+const admins = [5,2,6,3];
+
+const user = {
+    name : 'ABS',
+    id : 6,
+};
+
+const isAdmin = admins.indexOf(user.id) > -1;
+
+console.log(isAdmin);
+
