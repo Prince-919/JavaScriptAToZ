@@ -127,20 +127,55 @@
 
 // Map Function 
 
-const users = [
+// const users = [
+//     {
+//         fname : "Prince",
+//         lname : "Sharma",
+//     },
+//     {
+//         fname : "Rahul Kumar",
+//         lname : "Sharma",
+//     },
+// ];
+
+// const finalUser = users.map((user) => {
+//     return{
+//         fullName : `${user.fname} ${user.lname}`
+//     };
+// });
+// console.log(finalUser);
+
+
+// Reduce 
+
+const movies = [
     {
-        fname : "Prince",
-        lname : "Sharma",
+        name : "Interstellar",
+        budget : 100,
     },
     {
-        fname : "Rahul Kumar",
-        lname : "Sharma",
+        name : "Social",
+        budget : 150,
+    },
+    {
+        name : "Matrix",
+        budget : 200,
     },
 ];
 
-const finalUser = users.map((user) => {
-    return{
-        fullName : `${user.fname} ${user.lname}`
-    };
-});
-console.log(finalUser);
+
+// using reduce 
+ const total = movies.reduce((acc, movie) =>{
+    acc += movie.budget;
+    return acc;
+},0);
+// console.log(acc); //ReferenceError: total is not defined
+console.log("Total Budget : ", total);
+
+
+// Without reduce 
+// let total =0;
+// movies.forEach((movie) =>{
+//     total += movie.budget;
+// });
+// console.log("Total Budget : ", total);
