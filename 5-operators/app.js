@@ -113,3 +113,17 @@ console.log(4 >= 4);
 // grouping - precedence 21
 console.log(3 + 10 * 2);
 console.log((3 + 10) * 2);   // grouping precedence (--)
+
+// let to right precedence 
+
+console.log(3 > 2 && 2 > 1); 
+// steps
+    // console.log(true && 2 > 1);
+    // console.log(true && true);
+    // return true 
+
+console.log(3>2>1);
+// step
+    // first - (true > 1)
+    //          (1 > 1)
+    // second - return - false
