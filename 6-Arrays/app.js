@@ -234,6 +234,12 @@
 // console.log(names);
 // console.log(number);
 
+// Reverse Method 
 
+// const name = ['Hello', 'Prince', 'Sharma'];
+// name.reverse();
+// console.log(name);
+
+ 
 
 
