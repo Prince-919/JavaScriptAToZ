@@ -240,6 +240,10 @@
 // name.reverse();
 // console.log(name);
 
- 
+// Splice Method
+
+const names = ['John', 'Jane', 'Sham', 'Ram', 'Sameer', 'Mansi'];
+names.splice(2,1);  // splice(index number ,or, kitne element delete karne h )
+console.log(names);
 
 
