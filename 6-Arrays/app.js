@@ -183,12 +183,12 @@
 
 // IndexOf
 
-const admins = [5,2,6,3];
+// const admins = [5,2,6,3];
 
-const user = {
-    name : 'ABS',
-    id : 6,
-};
+// const user = {
+//     name : 'ABS',
+//     id : 6,
+// };
 
 // const isAdmin = admins.indexOf(user.id) > -1;
 // console.log(isAdmin);
@@ -196,4 +196,31 @@ const user = {
 // Include Method 
 
 // console.log(admins.includes(user.id));
+
+
+// Find()
+
+// const users = [
+//     {
+//         name : 'abc',
+//         id : 1,
+//     },
+//     {
+//         name : 'xyz',
+//         id : 2,
+//     },
+//     {
+//         name : 'pqr',
+//         id : 3,
+//     },
+// ];
+
+// const myUser = users.find((user) => user.id === 2
+//     // if(user.id === 2){
+//     //     return true;
+//     // }else{
+//     //     return false;
+//     // }
+// );
+// console.log(myUser);
 
