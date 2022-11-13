@@ -224,3 +224,16 @@
 // );
 // console.log(myUser);
 
+
+// sort Method 
+
+// const names = ['John', 'Jane', 'Sham', 'Ram', 'Sameer', 'Mansi'];
+// const number = [50,12,34,21,44,67,0,8,-1,-2];
+// number.sort();
+// names.sort();
+// console.log(names);
+// console.log(number);
+
+
+
+
