@@ -77,3 +77,14 @@
 // parent.appendChild('heading');
 // console.log(heading);
 
+
+// DOM Events 
+
+// const heading = document.querySelector('#heading');
+// const button = document.querySelector('#btn');
+
+// button.addEventListener('click',function(event){
+//     heading.style.color = 'purple';
+//     heading.style.fontSize= '60px';
+//     console.log("Clicked",event);
+// });
