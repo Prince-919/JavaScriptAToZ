@@ -67,3 +67,13 @@
 // heading.classList.add("title");
 // heading.classList.remove("heading");
 
+
+
+// Create Element using JavaScript
+// const heading = document.createElement('h1');
+// heading.innerHTML ="JavaSCript Is Awesome";
+
+// const parent= document.querySelector('.parent');
+// parent.appendChild('heading');
+// console.log(heading);
+
