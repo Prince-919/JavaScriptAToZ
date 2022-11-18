@@ -56,3 +56,14 @@
 // const subHeading =document.querySelector('h3');
 // console.log(subHeading.previousElementSibling);
 
+
+
+// Manipulation
+
+// const heading = document.querySelector('.heading');
+// heading.innerHTML = "Web-D is Awesome";
+// heading.style.color = "red";
+// heading.style.fontSize = "100px";
+// heading.classList.add("title");
+// heading.classList.remove("heading");
+
